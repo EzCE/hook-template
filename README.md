@@ -42,7 +42,7 @@ out:
 ; jp <set hook>
 ```
 
-Replace these lines with the the equates associated with the hook you have chosen. For
+Replace these lines with the equates associated with the hook you have chosen. For
 example, a parser hook would look like this:
 
 ```asm
