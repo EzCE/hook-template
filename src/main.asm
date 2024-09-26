@@ -5,8 +5,6 @@ include 'include/ti84pceg.inc'
 format ti archived executable protected program 'HOOKINST'
 
 _main:
-    ld hl, -1
-    ld (hl), 2
     ld hl, appvarName
     call ti.Mov9ToOP1
 
