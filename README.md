@@ -8,6 +8,10 @@ calculator's archive, meaning the hook is more stable than if it was stored in t
 RAM. However, hooks using this method will be destroyed and require reinstalling
 after a garbage collect.
 
+PLEASE NOTE that as of TI-OS 5.8.3, hooks are blocked outside of apps and the OS
+itself. As this template uses an AppVar to store hook code, it is only compatible
+with OS versions Pre-5.8.3.
+
 ## About this template
 
 The template provides an installer part (**main.asm**) and a file for the hook's
